@@ -1,0 +1,17 @@
+
+.container{
+    background-color: white;
+    width: 30%;
+    border-radius: 2vw;
+    padding-top: 2vw;
+    margin-top: 10vw;
+    margin-left: 20vw;
+}
+.form {
+    padding: 5vw;
+
+}
+.form input {
+    padding: 0.5vw;
+    margin-top: 1vw;
+}
