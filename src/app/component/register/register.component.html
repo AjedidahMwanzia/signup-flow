@@ -1,1 +1,16 @@
-<p>register works!</p>
+<div class="container">
+    <div class="form">
+        <h3>Sign Up</h3>
+        <form [formGroup]="signup">
+            <input type="text" class="inp" placeholder="Name" formControlName="name" > <br>
+            <input type="email" class="inp" placeholder="Email" formControlName="email" > <br>
+            <input type="password" class="inp"  placeholder="password" formControlName="password"> <br>
+            
+        </form>
+    </div>
+    <div class="button">
+        <button (click)="toRegister(signup.value)" [disabled]="signup.invalid" type="submit">Register</button>
+        <button  (click)="toLogin()" type="submit">Login</button>
+    </div>
+</div>
+

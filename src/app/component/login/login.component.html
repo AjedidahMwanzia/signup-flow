@@ -1,6 +1,6 @@
 <div class="container">
     <div class="form">
-        <h3>Login Form</h3>
+        <h3>Login</h3>
         <form [formGroup]="login">
             <input type="email" class="inp" placeholder="Email" formControlName="email" > <br>
             <input type="password" class="inp"  placeholder="password" formControlName="password"> <br>
@@ -9,6 +9,6 @@
     </div>
     <div class="button">
         <button (click)="loginSubmit(login.value)" [disabled]="login.invalid" type="submit">Login</button>
-        <button type="submit">Register</button>
+        <button  (click)="goSignup()" type="submit">Register</button>
     </div>
 </div>
