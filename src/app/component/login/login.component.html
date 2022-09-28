@@ -1,14 +1,14 @@
 <div class="container">
     <div class="form">
         <h3>Login Form</h3>
-        <form >
-            <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script> <input type="email" placeholder="Email"> <br>
-            <input type="text" placeholder="password"> <br>
+        <form [formGroup]="login">
+            <input type="email" class="inp" placeholder="Email" formControlName="email" > <br>
+            <input type="password" class="inp"  placeholder="password" formControlName="password"> <br>
             
         </form>
     </div>
     <div class="button">
-        <button type="submit">Login</button>
+        <button (click)="loginSubmit(login.value)" [disabled]="login.invalid" type="submit">Login</button>
         <button type="submit">Register</button>
     </div>
 </div>
