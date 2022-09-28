@@ -1,6 +1,8 @@
-# Registration
+# Signup Flow
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
+This is demonstrating a registration flow setting up routing, intergrating signup form with data services and adding proper input validation using Reactive forms.
+
+
 
 ## Development server
 

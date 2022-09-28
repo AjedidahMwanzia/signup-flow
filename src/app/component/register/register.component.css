@@ -44,7 +44,7 @@ h3{
     color: #01264e;
 }
 :disabled{
-    background-color: lightblue;
-    color: #01264e;
+    background-color: #01264e;
+    color: white;
     cursor: not-allowed;
 }
