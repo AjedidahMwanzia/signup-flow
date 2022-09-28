@@ -28,6 +28,7 @@ button {
     font-size: 1vw;
     border-radius: 1vw;
     cursor: pointer;
+    border: none;
 }
 .button{
     border: 1vw;
