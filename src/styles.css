@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image:url(../../../assets/images/back.jpg) ;
+    background:url(../src/assets/images/back.jpg) ;
     background-size: cover;
-    height: 50vw;
+    height: 40vw;
 }
